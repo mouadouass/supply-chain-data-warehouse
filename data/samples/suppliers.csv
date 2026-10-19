@@ -1,0 +1,22 @@
+supplier_id,supplier_name,city,country,standard_lead_time_days
+S001,Perret Delorme S.A.S.,Nador,Maroc,5
+S002,Turpin,Rabat,Maroc,4
+S003,Pichon,Marrakech,,3
+S004,Gros Reynaud et Fils,Oujda,Maroc,4
+S005,Delmas Clément SARL,Fès,Maroc,2
+S006,Morin,Fès,Maroc,4
+S007,Maillet Ruiz S.A.,Casablanca,Maroc,3
+S008,Caron Laurent SA,Kénitra,Maroc,4
+S009,Ollivier Bourdon SA,Agadir,Maroc,3
+S010,Legros,casablanca,Maroc,2
+S011,Wagner Grenier S.A.R.L.,Rabat,Maroc,2
+S012,Alexandre,Nador,Maroc,3
+S013,Caron Bègue et Fils,Tétouan,Maroc,4
+S014,Hamel SA,RABAT,Maroc,5
+S015,Vasseur,Agadir,Maroc,3
+S016,Grenier Paul S.A.R.L.,Casablanca,Maroc,3
+S017,Pascal S.A.,Madrid,Espagne,5
+S018,Pineau S.A.,Valence,Espagne,5
+S019,Martineau,Lyon,France,-8
+S020,Faivre,Shenzhen,Chine,16
+S020,Faivre,Shenzhen,Chine,16

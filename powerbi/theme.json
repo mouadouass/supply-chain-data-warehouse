@@ -1,0 +1,26 @@
+
+{
+  "name": "Supply Chain | Corporate Analytics",
+  "dataColors": [
+    "#147DAB",
+    "#245A81",
+    "#16A6A1",
+    "#55A6D9",
+    "#E6A23C",
+    "#D95D50",
+    "#7967A9",
+    "#7B93A8",
+    "#B7DCEB",
+    "#A6B9A8"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#29445B",
+  "tableAccent": "#147DAB",
+  "good": "#16A6A1",
+  "neutral": "#E6A23C",
+  "bad": "#D95D50",
+  "maximum": "#245A81",
+  "center": "#55A6D9",
+  "minimum": "#DCEAF3",
+  "null": "#E8EDF2"
+}

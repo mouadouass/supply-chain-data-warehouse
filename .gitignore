@@ -1,0 +1,53 @@
+# Secrets (JAMAIS sur GitHub)
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Journaux
+logs/*
+!logs/.gitkeep
+*.log
+airflow/logs/
+
+# Fichiers Airflow générés
+airflow/*.db
+airflow/*.pid
+airflow/airflow.cfg
+airflow/webserver_config.py
+
+# Données PostgreSQL
+pgdata/
+postgres_data/
+
+# Données générées (reproductibles avec la seed)
+data/raw/**/*.csv
+data/raw/**/*.json
+data/clean_reference/**/*.csv
+data/clean_reference/**/*.json
+data/ground_truth/**/*.csv
+data/ground_truth/**/*.json
+data/ground_truth/**/*.txt
+
+# Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+.pbi/
+
+data/incoming/
+# Toutes les donn�es g�n�r�es localement
+data/raw/
+data/incoming/
+data/clean_reference/
+data/ground_truth/
+
+# Journaux d'ex�cution
+logs/

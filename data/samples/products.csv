@@ -1,0 +1,203 @@
+product_id,product_name,category,brand,unit_price,supplier_id,created_date
+P0001,Shampoing Head & Shoulders X912,Hygiène et beauté,Head & Shoulders,26.5,S999,2024-04-29
+P0002,Aspirateur Samsung F528,Maison,Samsung,805.0,S017,2024-01-19
+P0003,Conserve de tomates Aïcha A820,ALIMENTATION,Aïcha,31.0,S009,2023-06-09
+P0004,Cahier Maped G463,Bureau,Maped,40.0,S016,2024-01-08
+P0005,Aspirateur Samsung N508,Maison,Samsung,2510.5,S002,2023-06-15
+P0006,Thé vert 500g Lipton K184,Alimentation,Lipton,63.0,S002,2024-08-04
+P0007,Pâtes 5kg Barilla U499,Alimentation,Barilla,100.5,S014,2024-05-29
+P0008,Clavier sans fil Logitech U957,Électronique,Logitech,305.0,S014,2023-04-27
+P0009,Aspirateur Bosch N871,Maison,Bosch,1499.5,S008,2023-07-10
+P0010,Sac à dos Samsonite R194,Mode,Samsonite,808.5,S014,2024-01-14
+P0011,Gel douche Dove G641,Hygiène et beauté,Dove,N/A,S014,2025-02-14
+P0012,Dentifrice Oral-B U270,Hygiène et beauté,NULL,43.0,S002,2024-07-17
+P0013,Smartphone Huawei M440,Électronique,,5047.0,S001,2024-12-27
+P0014,Clavier sans fil Logitech X230,Electroniqu,Logitech,216.0,S002,2024-09-02
+P0015,Clavier sans fil Logitech Q380,Électronique,Logitech,432.5,S018,2023-06-25
+P0016,Ramette papier A4 Clairefontaine O587,Bureau,Clairefontaine,35.5,S016,2025-12-01
+P0017,Imprimante HP T947,Bureau,HP,2724.5,S006,2025-09-16
+P0018,Sac à dos Samsonite C917,Mode,Samsonite,228.0,S001,2023-07-02
+P0019,Thé vert 500g Sultan I418,Alimentation,Sultan,76.0,S016,2023-08-29
+P0020,Riz basmati 5kg Dari P900,Alimentation,Dari,115.5,S003,2023-02-03
+P0021,Ramette papier A4 Lyreco D455,Bureau,Lyreco,39.0,S008,2023-01-03
+P0022,T-shirt coton Puma G637,Mode,Puma,112.0,S012,2023-03-26
+P0023,Agrafeuse Leitz C403,Bureau,Leitz,71.0,S007,2023-10-24
+P0024,Cahier Clairefontaine T721,Bureau,Clairefontaine,43.0,S007,2023-01-26
+P0025,Thé vert 500g Maroc Thé Q888,Alimentation,Maroc Thé,45.0,S014,2024-10-16
+P0026,Souris sans fil Logitech N235,electronique,Logitech,441.0,S017,2023-11-30
+P0027,Café moulu 1kg Segafredo D555,Alimentation,Segafredo,157.5,S002,2023-03-20
+P0028,Dentifrice Colgate C734,Hygiène et beauté,Colgate,28.0,S006,2025-04-15
+P0029,T-shirt coton Zara F586,Mode,Zara,226.5,S001,2023-12-27
+P0030,Smartphone Oppo T926,Électronique,Oppo,3531.0,S019,2023-10-14
+P0031,Classeur Leitz R777,Bureau,Leitz,36.0,S006,2024-04-11
+P0032,Smartphone Oppo N768,Électronique,Oppo,3175.0,S010,2023-06-29
+P0033,Casque audio JBL Y333,Électronique,JBL,299.0,S019,2023-11-04
+P0034,Agrafeuse Novus M345,Burea,Novus,138.5,S007,2024-05-30
+P0035,Enceinte Bluetooth Sony H445,Électronique,Sony,357.5,S019,2023-02-13
+P0036,Veste légère Zara S672,Mode,Zara,1080.5,S015,2025-09-27
+P0037,Bouilloire électrique Tefal K827,Maison,Tefal,485.5,S001,2024-01-28
+P0038,Crème hydratante Vichy V604,Hygiène et beauté,Vichy,95.0,S018,2024-05-10
+P0039,Pâtes 5kg Barilla D319,Alimentation,Barilla,59.0,S012,2024-12-23
+P0040,Souris sans fil Logitech D957,Électronique,Logitech,690.5,S008,2023-05-26
+P0041,Conserve de tomates Aïcha B965,Alimentation,Aïcha,41.5,S005,2024-07-20
+P0042,Agrafeuse Rapid Z814,Bureau,Rapid,81.0,S018,2024-06-30
+P0043,Smartphone Xiaomi C914,Électronique,Xiaomi,4490.0,S008,2024-10-27
+P0044,Huile d'olive 1L Oued Souss W320,Alimentation,Oued Souss,68.0,S008,2023-09-21
+P0045,Écran 24 pouces HP K653,Électronique,HP,1420.5,S009,2024-03-21
+P0046,Écran 24 pouces Samsung N829,Électronique,Samsung,2317.0,S008,2023-05-10
+P0047,Chargeur rapide Anker X490,Électronique,Anker,107.5,S005,2024-07-09
+P0048,Café moulu 1kg Segafredo U985,Alimentation,Segafredo,180.0,S016,2024-01-01
+P0049,Veste légère Columbia F850,Mode,Columbia,941.0,S020,2023-06-19
+P0050,Enceinte Bluetooth JBL E209,Électronique,JBL,884.5,S014,2024-03-02
+P0051,Thé vert 500g Maroc Thé B425,Alimentation,Maroc Thé,81.0,S011,2023-05-19
+P0052,Dentifrice Oral-B Z668,Hygiène et beauté,Oral-B,-31.0,S003,2025-09-22
+P0053,Écran 24 pouces Samsung W331,Electroniqu,Samsung,2519.5,S007,2023-05-22
+P0054,Crème hydratante Nivea F755,Hygiène et beauté,Nivea,111.0,S013,2024-05-11
+P0055,Ramette papier A4 Navigator P696,Bureau,Navigator,62.0,S018,2024-04-10
+P0056,Pâtes 5kg Dari N617,Alimentation,Dari,100.0,S006,2025-06-16
+P0057,Shampoing Pantene J652,Hygiène et beauté,Pantene,84.5,S020,2025-04-12
+P0058,Conserve de tomates Mutti M329,Alimentation,Mutti,24.5,S015,2023-06-05
+P0059,Casque audio Sony R407,Électronique,Sony,498.5,S016,2024-01-01
+P0060,Imprimante Canon L808,Bureau,Canon,930.5,S004,2023-10-12
+P0061,Shampoing L'Oréal G851,Hygiène et beauté,L'Oréal,78.5,S014,2023-10-31
+P0062,Casserole inox Lagostina I291,Maison,Lagostina,126.0,S016,2025-01-16
+P0063,Bouilloire électrique Tefal J412,Maison,Tefal,697.5,S008,2025-04-14
+P0064,Baskets running Nike M372,Mode,Nike,1214.5,S999,2023-11-30
+P0065,Riz basmati 5kg Dari H384,Alimentation,Dari,96.0,S007,2023-08-09
+P0066,Smartphone Huawei I809,Électronique,Huawei,8834.5,S020,2023-01-12
+P0067,Chargeur rapide Xiaomi B401,Électronique,Xiaomi,283.0,S013,2024-04-07
+P0068,Clavier sans fil Logitech D891,Électronique,Logitech,158.0,S017,2024-07-12
+P0069,Stylos (lot) Stabilo M640,Bureau,Stabilo,22.0,S002,2023-11-30
+P0070,Aspirateur Bosch I775,Maison,Bosch,1320.5,S006,2023-09-24
+P0071,Casserole inox Tefal U854,Maison,Tefal,365.5,S009,2023-01-17
+P0072,Casserole inox Zwilling C125,Maison,Zwilling,493.0,S004,2023-06-16
+P0073,Bouilloire électrique Bosch S423,Maison,Bosch,677.5,S017,2024-04-02
+P0074,Stylos (lot) Maped P305,Bureau,Maped,52.0,S020,2023-10-13
+P0075,T-shirt coton Zara O774,Mode,Zara,N/A,S008,2023-07-03
+P0076,Baskets running Nike F430,Mode,Nike,1563.5,S020,2023-05-22
+P0077,Stylos (lot) Stabilo H628,Bureau,Stabilo,65.0,S008,2023-01-31
+P0078,Ventilateur Xiaomi S562,Maison,Xiaomi,1004.5,S018,2025-12-23
+P0079,Huile d'olive 1L Dar Zitoun D755,Alimentation,Dar Zitoun,69.0,S019,2023-09-15
+P0080,Smartphone Xiaomi M477,Électronique,Xiaomi,2227.5,S014,2023-09-08
+P0081,Chargeur rapide Xiaomi Q528,Électronique,Xiaomi,226.5,S017,2023-06-23
+P0082,Casque audio Logitech N866,Électronique,Logitech,520.5,S013,2023-04-15
+P0083,Enceinte Bluetooth Anker F718,Électronique,Anker,301.0,S008,2024-07-02
+P0084,Aspirateur Samsung T184,Maison,Samsung,2298.5,S008,2023-04-12
+P0085,Imprimante Canon J333,Bureau,Canon,1081.5,S017,2023-09-21
+P0086,Dentifrice Oral-B D881,Hygiène et beauté,Oral-B,41.5,S008,2023-01-08
+P0087,Veste légère Puma M870,Mode,Puma,395.5,S013,2023-03-29
+P0088,Lampe de bureau Philips V363,Maison,Philips,409.5,S009,2025-12-19
+P0089,Classeur Oxford V852,Bureau,Oxford,31.0,S013,2023-06-20
+P0090,Classeur Exacompta F181,Bureau,Exacompta,71.5,S014,2025-08-18
+P0091,Ventilateur Ikea D492,Maison,Ikea,385.5,S010,2025-12-19
+P0092,Stylos (lot) Maped X896,Bureau,Maped,33.0,S009,2023-10-01
+P0093,T-shirt coton Zara P251,Mode,Zara,122.5,S016,2023-08-09
+P0094,Casserole inox Cooking I260,Maison,Cooking,320.0,S015,2025-02-15
+P0095,Baskets running Puma J415,Mode,NULL,753.0,S018,2023-06-11
+P0096,Sac à dos Adidas R990,Mode,Adidas,502.5,S014,2023-10-12
+P0097,Souris sans fil Razer I733,Électronique,Razer,240.0,S009,2023-06-13
+P0098,Souris sans fil HP A656,Électronique,HP,413.0,S014,2023-01-17
+P0099,Gel douche Palmolive A392,Hygiène et beauté,Palmolive,60.0,S019,2024-08-11
+P0100,Bouilloire électrique Bosch Y187,Maison,Bosch,633.0,S016,2024-01-25
+P0101,Batterie externe Anker J539,Electroniqu,Anker,417.0,S018,2023-02-06
+P0102,Chargeur rapide Baseus Q448,Électronique,Baseus,273.5,S020,2023-07-09
+P0103,Casque audio Sony X919,Électronique,Sony,668.5,S001,2024-12-10
+P0104,Jean slim Lee J789,Mode,Lee,699.0,S014,2024-05-24
+P0105,Clavier sans fil HP T957,Électronique,NULL,238.5,S013,2023-08-22
+P0106,Café moulu 1kg Illy D219,Alimentation,Illy,161.5,S019,2023-06-28
+P0107,Lampe de bureau Ikea P548,Maiso,Ikea,245.5,S009,2024-07-26
+P0108,Chargeur rapide Xiaomi V906,Électronique,Xiaomi,156.0,S016,2023-09-13
+P0109,Lampe de bureau Xiaomi B811,Maison,N/A,274.5,S015,2024-05-09
+P0110,Cahier Exacompta Z402,Bureau,Exacompta,30.0,S016,2025-05-05
+P0111,Café moulu 1kg Lavazza F452,Alimentation,Lavazza,192.0,S007,2023-09-06
+P0112,Sac à dos Adidas Q826,Mode,Adidas,379.5,S014,2024-08-01
+P0113,Ramette papier A4 Double A O197,Bureau,Double A,36.0,S007,2023-01-02
+P0114,Souris sans fil HP P101,ÉLECTRONIQUE,HP,619.5,S006,2023-10-09
+P0115,Huile d'olive 1L Olivia U878,Alimentation,Olivia,88.0,S016,2024-03-31
+P0116,Enceinte Bluetooth Anker K279,Électronique,Anker,1216.5,S007,2024-07-01
+P0117,Dentifrice Signal Y479,Hygiène et beauté,Signal,16.5,S016,2026-01-15
+P0118,Jean slim Lee L570,Mode,Lee,,S008,2025-10-06
+P0119,Pâtes 5kg Tria V170,Alimentation,Tria,82.5,S020,2023-09-15
+P0120,Riz basmati 5kg Dari B159,Alimentation,Dari,136.0,S019,2023-05-05
+P0121,Baskets running Asics S336,Mode,Asics,1240.0,S015,2023-04-08
+P0122,Sac à dos Eastpak N317,Mode,Eastpak,597.5,S008,2023-09-13
+P0123,Dentifrice Elmex L621,Hygiène et beauté,Elmex,22.5,S009,2024-08-30
+P0124,Classeur Oxford F745,Bureau,Oxford,28.5,S010,2023-03-13
+P0125,Classeur Esselte E168,Bureau,Esselte,N/A,S001,2023-07-24
+P0126,Batterie externe Baseus G812,Électronique,Baseus,154.0,S008,2024-10-08
+P0127,Huile d'olive 1L Dar Zitoun A588,Alimentation,Dar Zitoun,40.5,S007,2023-06-28
+P0128,Ventilateur Rowenta J522,Maison,Rowenta,802.0,S020,2024-08-31
+P0129,Chargeur rapide Anker R187,Électronique,Anker,181.5,S019,2024-05-11
+P0130,Gel douche Dove L896,Hygiène et beauté,Dove,29.0,S004,2024-07-04
+P0131,Crème hydratante Nivea S390,Hygiène et beauté,Nivea,56.0,S004,2024-07-16
+P0132,Jean slim Levi's P413,Mode,Levi's,477.5,S012,2023-08-31
+P0133,Enceinte Bluetooth Xiaomi I637,Électronique,Xiaomi,194.0,S020,2024-07-05
+P0134,Ramette papier A4 Navigator S803,Bureau,Navigator,45.0,S007,2024-10-01
+P0135,Lampe de bureau Osram E932,Maison,Osram,384.0,S016,2023-09-11
+P0136,Riz basmati 5kg Royal M943,Alimentation,Royal,64.0,S014,2023-05-12
+P0137,Veste légère Zara L621,Mode,Zara,888.5,S016,2023-06-21
+P0138,Clavier sans fil HP M159,Électronique,HP,419.5,S014,2024-07-21
+P0139,Shampoing L'Oréal N592,Hygiène et beauté,L'Oréal,38.0,S015,2023-09-09
+P0140,Souris sans fil HP N406,Électronique,HP,225.5,S001,2024-08-05
+P0141,Shampoing Head & Shoulders P772,Hygiène et beauté,Head & Shoulders,72.5,S006,2023-06-15
+P0142,Gel douche Axe Y943,Hygiène et beauté,Axe,66.5,S016,2023-05-14
+P0143,Crème hydratante Vichy Z547,Hygiène et beauté,Vichy,178.0,S010,2023-01-26
+P0144,Lampe de bureau Ikea O977,Maison,Ikea,93.0,S008,2023-10-21
+P0145,Thé vert 500g Al Hassan P389,Alimentation,Al Hassan,41.0,S013,2024-01-03
+P0146,Jean slim Jack & Jones M648,Mode,Jack & Jones,601.5,S020,2024-03-12
+P0147,Enceinte Bluetooth Anker M619,Électronique,Anker,452.5,S008,2023-09-16
+P0148,Shampoing Garnier T111,Hygiène et beauté,Garnier,81.0,S008,2024-02-29
+P0149,T-shirt coton Adidas L653,Mode,Adidas,246.5,S003,2024-07-24
+P0150,T-shirt coton Zara P780,Mode,Zara,319.5,S018,2025-08-11
+P0151,Conserve de tomates Hunt's T876,Alimentation,Hunt's,26.0,S002,2023-07-30
+P0152,Écran 24 pouces Samsung E847,Électronique,Samsung,1989.0,S007,2023-06-06
+P0153,Bouilloire électrique Philips L206,Maison,Philips,613.0,S018,2023-03-14
+P0154,Baskets running Puma M568,MODE,Puma,1493.5,S001,2024-04-07
+P0155,Pâtes 5kg Panzani N646,Alimentation,Panzani,51.5,S020,2024-07-17
+P0156,Huile d'olive 1L Olivia R484,Alimentation,Olivia,54.5,S020,2024-01-17
+P0157,Café moulu 1kg Segafredo T825,Alimentation,,187.5,S010,2023-09-19
+P0158,Casque audio Xiaomi O506,Électronique,Xiaomi,972.0,S008,2023-07-07
+P0159,Casque audio Xiaomi D835,Électronique,Xiaomi,514.0,S019,2023-04-11
+P0160,Veste légère Columbia Y433,Mode,Columbia,780.0,S002,2024-06-01
+P0161,Conserve de tomates Hunt's X391,Alimentation,Hunt's,58.0,S008,2023-03-27
+P0162,Batterie externe Samsung A702,Électronique,Samsung,595.0,S001,2023-08-12
+P0163,Huile d'olive 1L Olivia N871,Alimentation,Olivia,88.5,S014,2023-11-28
+P0164,Thé vert 500g Sultan A677,Alimentation,Sultan,32.0,S015,2023-06-07
+P0165,Aspirateur Rowenta T155,Maison,Rowenta,1794.0,S003,2025-12-31
+P0166,Stylos (lot) Stabilo X819,Bureau,Stabilo,39.0,S010,2024-04-22
+P0167,Ventilateur Ikea C678,Maison,Ikea,636.0,S010,2024-11-23
+P0168,Cahier Clairefontaine K791,Bureau,Clairefontaine,49.0,S003,2024-06-29
+P0169,Gel douche Palmolive C483,Hygiène et beauté,Palmolive,69.0,S020,2023-10-12
+P0170,Lampe de bureau Philips Q278,Maison,Philips,201.0,S004,2024-07-25
+P0171,Riz basmati 5kg Tilda V623,Alimentation,Tilda,66.5,S010,2026-01-17
+P0172,Jean slim Zara L384,Mode,Zara,644.5,S014,2024-09-16
+P0173,Écran 24 pouces Samsung E563,Électronique,Samsung,2756.5,S015,2024-08-19
+P0174,Écran 24 pouces Samsung G312,Électronique,Samsung,1942.0,S017,2023-04-07
+P0175,Conserve de tomates Hunt's Z439,Alimentation,Hunt's,55.5,S019,2023-11-02
+P0176,Agrafeuse Leitz T729,Bureau,Leitz,48.5,S019,2024-01-31
+P0177,Cahier Oxford T402,Bureau,Oxford,40.5,S008,2023-07-02
+P0178,Imprimante Brother B113,Bureau,Brother,3318.0,S007,2023-07-18
+P0179,Ventilateur Rowenta N102,Maison,Rowenta,802.5,S017,2024-09-18
+P0180,Casserole inox Zwilling I711,Maison,Zwilling,512.0,S007,2025-09-29
+P0181,Casserole inox Lagostina H584,Maison,Lagostina,325.0,S015,2025-01-08
+P0182,Veste légère Mango L260,Mode,Mango,847.0,S002,2025-07-16
+P0183,Cahier Maped E656,Bureau,Maped,18.0,S008,2023-03-04
+P0184,Riz basmati 5kg Royal B873,Alimentation,Royal,142.5,S005,2023-11-23
+P0185,Ramette papier A4 Navigator P398,Bureau,Navigator,50.5,S001,2024-04-28
+P0186,Batterie externe Baseus V375,Électronique,Baseus,368.0,S002,2023-01-02
+P0187,Agrafeuse Rapid T731,Bureau,Rapid,56.0,S004,2023-04-23
+P0188,Sac à dos Eastpak H478,Mode,Eastpak,457.5,S006,2023-04-04
+P0189,Bouilloire électrique Russell Hobbs A982,MAISON,Russell Hobbs,390.0,S007,2025-05-26
+P0190,Ventilateur Xiaomi H143,Maison,Xiaomi,-324.5,S014,2025-06-22
+P0191,Batterie externe Anker Q570,Électronique,Anker,550.5,S013,2023-05-28
+P0192,Crème hydratante L'Oréal D766,Hygiène et beauté,L'Oréal,119.0,S003,2023-03-21
+P0193,Crème hydratante Nivea P776,Hygiène et beauté,Nivea,176.5,S012,2025-11-18
+P0194,Café moulu 1kg Lavazza H220,Alimentation,Lavazza,208.5,S015,2024-03-30
+P0195,Imprimante Canon L817,Bureau,Canon,2230.0,S020,2023-08-01
+P0196,Baskets running Asics F324,Mode,Asics,515.5,S016,2024-04-25
+P0197,Jean slim Zara T102,Mode,Zara,389.5,S014,2024-02-02
+P0198,Pâtes 5kg Barilla P269,Alimentation,Barilla,45.5,S004,2024-05-02
+P0199,Gel douche Palmolive X766,Hygiène et beauté,Palmolive,45.5,S014,2023-12-23
+P0200,Batterie externe Xiaomi V704,Électronique,Xiaomi,439.5,S005,2024-06-20
+P0028,Dentifrice Colgate C734,Hygiène et beauté,Colgate,28.0,S006,2025-04-15
+P0122,Sac à dos Eastpak N317,Mode,Eastpak,597.5,S008,2023-09-13

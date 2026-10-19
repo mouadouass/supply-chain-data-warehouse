@@ -1,0 +1,6 @@
+warehouse_id,warehouse_name,city,region,capacity_units
+W01,Entrepôt Casablanca,Casablanca,Casablanca-Settat,30000
+W02,Entrepôt Tanger,Tanger,Tanger-Tétouan-Al Hoceïma,25000
+W03, Entrepôt Fès  ,Fès,Fès-Meknès,42000
+W04,Entrepôt Oujda,Oujda,Oriental,58000
+W05,Entrepôt Marrakech,MARRAKECH,Marrakech-Safi,33000

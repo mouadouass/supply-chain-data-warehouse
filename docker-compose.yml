@@ -1,0 +1,97 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: dw_postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+    ports:
+      - "${POSTGRES_PORT}:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./sql/00_schemas.sql:/docker-entrypoint-initdb.d/00_schemas.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER} -d ${POSTGRES_DB}"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  pgadmin:
+    image: dpage/pgadmin4
+    container_name: dw_pgadmin
+    environment:
+      PGADMIN_DEFAULT_EMAIL: ${PGADMIN_EMAIL}
+      PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_PASSWORD}
+    ports:
+      - "${PGADMIN_PORT}:80"
+    volumes:
+      - pgadmin_data:/var/lib/pgadmin
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  # Base interne d'Airflow (ses métadonnées : exécutions, états des tâches). Séparée de l'entrepôt.
+  airflow_db:
+    image: postgres:16
+    container_name: dw_airflow_db
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow_db_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U airflow -d airflow"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  airflow:
+    build: ./docker/airflow
+    container_name: dw_airflow
+    depends_on:
+      airflow_db:
+        condition: service_healthy
+      postgres:
+        condition: service_healthy
+    environment:
+      # --- configuration d'Airflow (version légère : un seul conteneur) ---
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_db:5432/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Africa/Casablanca
+      AIRFLOW__WEBSERVER__SECRET_KEY: ${AIRFLOW_SECRET_KEY}
+      AIRFLOW__WEBSERVER__WORKERS: "2"
+      AIRFLOW__SCHEDULER__PARSING_PROCESSES: "1"
+      AIRFLOW__CORE__PARALLELISM: "4"
+      # --- connexion de nos programmes à l'entrepôt (réseau interne de Docker) ---
+      POSTGRES_HOST: postgres
+      POSTGRES_PORT: "5432"
+      POSTGRES_USER: ${POSTGRES_USER}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: ${POSTGRES_DB}
+      PYTHONDONTWRITEBYTECODE: "1"
+    ports:
+      - "${AIRFLOW_PORT}:8080"
+    volumes:
+      - ./dags:/opt/airflow/dags
+      - .:/opt/airflow/project
+      - airflow_logs:/opt/airflow/logs
+    command: >
+      bash -c "airflow db migrate &&
+      (airflow users create --username ${AIRFLOW_ADMIN_USER} --password ${AIRFLOW_ADMIN_PASSWORD}
+      --firstname Admin --lastname User --role Admin --email admin@example.com || true) &&
+      (airflow scheduler &) && exec airflow webserver"
+    healthcheck:
+      test: ["CMD-SHELL", "curl -f http://localhost:8080/health || exit 1"]
+      interval: 30s
+      timeout: 10s
+      retries: 10
+      start_period: 90s
+
+volumes:
+  postgres_data:
+  pgadmin_data:
+  airflow_db_data:
+  airflow_logs:

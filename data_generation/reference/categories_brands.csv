@@ -1,0 +1,35 @@
+category,product_type,brands,price_min,price_max
+Électronique,Casque audio,JBL|Sony|Logitech|Xiaomi,150,1200
+Électronique,Enceinte Bluetooth,JBL|Sony|Xiaomi|Anker,100,1500
+Électronique,Chargeur rapide,Anker|Samsung|Xiaomi|Baseus,60,350
+Électronique,Batterie externe,Anker|Xiaomi|Baseus|Samsung,120,600
+Électronique,Clavier sans fil,Logitech|HP|Microsoft|Razer,150,900
+Électronique,Souris sans fil,Logitech|HP|Microsoft|Razer,80,700
+Électronique,Écran 24 pouces,Samsung|LG|HP|Dell,1200,2800
+Électronique,Smartphone,Samsung|Xiaomi|Huawei|Oppo,1500,9000
+Alimentation,Huile d'olive 1L,Lesieur|Oued Souss|Dar Zitoun|Olivia,35,120
+Alimentation,Thé vert 500g,Sultan|Lipton|Al Hassan|Maroc Thé,20,90
+Alimentation,Riz basmati 5kg,Tilda|Dari|Al Aman|Royal,60,180
+Alimentation,Café moulu 1kg,Lavazza|Illy|Carte Noire|Segafredo,70,250
+Alimentation,Pâtes 5kg,Dari|Panzani|Barilla|Tria,40,110
+Alimentation,Conserve de tomates,Aïcha|Hunt's|Cirio|Mutti,15,60
+Maison,Casserole inox,Tefal|Lagostina|Zwilling|Cooking,120,600
+Maison,Aspirateur,Philips|Rowenta|Samsung|Bosch,700,3000
+Maison,Bouilloire électrique,Philips|Tefal|Bosch|Russell Hobbs,150,700
+Maison,Lampe de bureau,Philips|Ikea|Osram|Xiaomi,80,450
+Maison,Ventilateur,Rowenta|Bosch|Xiaomi|Ikea,250,1200
+Mode,T-shirt coton,Adidas|Nike|Puma|Zara,90,350
+Mode,Baskets running,Nike|Adidas|Puma|Asics,450,1600
+Mode,Sac à dos,Samsonite|Nike|Adidas|Eastpak,200,900
+Mode,Jean slim,Levi's|Zara|Jack & Jones|Lee,250,800
+Mode,Veste légère,Zara|Mango|Puma|Columbia,300,1200
+Hygiène et beauté,Shampoing,L'Oréal|Garnier|Head & Shoulders|Pantene,25,90
+Hygiène et beauté,Gel douche,Dove|Nivea|Axe|Palmolive,20,70
+Hygiène et beauté,Crème hydratante,Nivea|L'Oréal|Vichy|Cerave,50,280
+Hygiène et beauté,Dentifrice,Colgate|Signal|Oral-B|Elmex,15,50
+Bureau,Ramette papier A4,Double A|Clairefontaine|Navigator|Lyreco,25,70
+Bureau,Cahier,Oxford|Clairefontaine|Maped|Exacompta,12,55
+Bureau,Stylos (lot),Bic|Pilot|Stabilo|Maped,15,80
+Bureau,Classeur,Esselte|Exacompta|Leitz|Oxford,20,90
+Bureau,Agrafeuse,Rapid|Leitz|Maped|Novus,30,150
+Bureau,Imprimante,HP|Canon|Epson|Brother,900,3500
